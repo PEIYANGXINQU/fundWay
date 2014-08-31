@@ -17,10 +17,10 @@ namespace KendoMVCWrappers.Controllers
         {
             persons.Add(new Person { PersonID = 1, Name = "John", BirthDate = new DateTime(1968, 6, 26) ,IsAdmin = true});
             persons.Add(new Person { PersonID = 2, Name = "Sara", BirthDate = new DateTime(1974, 9, 13) });
-            persons.Add(new Person { PersonID = 3, Name = "Peter", BirthDate = new DateTime(1976, 4, 20) , IsAdmin =  true });
+            persons.Add(new Person { PersonID = 3, Name = "Peter", BirthDate = new DateTime(1976, 4, 20) , IsAdmin =  true }); 
         }
 
-        public ActionResult Index()
+        public ActionResult Index() 
         {
             ViewBag.Message = "Modify this template to kick-start your ASP.NET MVC application.";
 
