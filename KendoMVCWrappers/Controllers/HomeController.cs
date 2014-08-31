@@ -13,7 +13,7 @@ namespace KendoMVCWrappers.Controllers
     {
         public static List<Person> persons = new List<Person>();
 
-        static HomeController()
+        static HomeController() 
         {
             persons.Add(new Person { PersonID = 1, Name = "John", BirthDate = new DateTime(1968, 6, 26) ,IsAdmin = true});
             persons.Add(new Person { PersonID = 2, Name = "Sara", BirthDate = new DateTime(1974, 9, 13) });
